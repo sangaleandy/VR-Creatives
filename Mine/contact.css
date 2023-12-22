@@ -1,0 +1,942 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 6.8vw;
+    background-color: #2d3e50;
+    
+}
+header img{
+    margin: -0.6%;
+    width: 8%;
+}
+.quicklinks{
+    padding-left: 50%;
+    margin-top: -4.5%;
+}
+.selected{
+    color: white;
+}
+.notselected{
+    color: #f59d10;
+}
+.quicklinks a{
+    padding-left: 3%;
+    font-size: 1.3vw;
+    padding-right: 3%;
+    text-decoration: none;
+    font-weight: bold;
+    transition: ease-in-out 0.4s;
+}
+.quicklinks a:hover{
+   color: white;
+}
+
+/* Form */
+
+.formsection{
+    padding: 0;
+    margin: 0 0 100px;
+}
+
+.inputa{
+    margin: 1.5% 0;
+    width: 100%;
+    line-height: 3vw;
+}
+textarea{
+    width: 100%;
+
+}
+.send{
+    margin: 2% 0;
+    color: #fff;
+    width: 50%;
+    display: block;
+    margin: auto;
+    background-image: linear-gradient(to right, #f59d10, #be7c11);
+    border: none;
+    border-radius: 20px;
+    padding: 0.7vw;
+    cursor: pointer;
+
+}
+
+form{
+    padding: 3% 3%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: -5%;
+    margin-bottom: 5%;
+    width: 70%;
+    height: auto;
+    border: 0.1vw solid grey;
+    justify-content: center;
+    /* box-shadow: 0.5px 0.5px 0.5px grey; */
+    background: white;
+    /* background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%); */
+}
+form h1{
+    padding: 3% 0;
+    
+}
+.inputb{
+    height: 15vw;
+}
+.formpic{
+    height: 30vw;
+    width: 100%;
+    /* background-image: url(Res/contact.jpg); */
+    background: linear-gradient(to top, rgba(0,0,0,0.45)50%, rgba(0,0,0,0.45)50%), url(Res/contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lets{
+    padding: 5.5% 0 0;
+    color: white;
+    text-align: center;
+    font-size: 6vw;
+    font-weight: bold;
+}
+.get{
+    padding: 1% 0 0;
+    color: white;
+    text-align: center;
+    font-size: 1.8vw;
+    max-width: 60%;
+    display: block;
+    margin: auto;
+
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 3vw;
+    right: -40vw;
+}
+/* RESPONSE */
+
+
+/* >1368px */
+
+@media (width > 1367px) {
+    form{  
+        width: 80%;
+        height: auto;
+        margin-top: -25%;
+    }
+    .inputb{
+        height: 15vw;
+    }
+    textarea{
+        height: 10vw;
+    }
+    header{
+        width: 100%;
+        height: 10vw;
+        background-color: #2d3e50;
+    }
+    header img{
+        margin: 1%;
+        width: 8%;
+    }
+    form h1{
+        padding: 0.2% 0;
+        font-size: 4VW;
+        
+    }
+    label{
+        font-size: 2vw;
+    }
+    .inputa{
+        margin: 0.8% 0;
+        width: 100%;
+        line-height: 3vw;
+    }
+    .formpic{
+        height: 60vw;
+        width: 100%;
+        
+    }
+    .lets{
+        padding: 4% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 7vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 3% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3vw;
+        max-width: 80%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 25%;
+        margin-top: -6.5%;
+    }
+    .quicklinks a{
+        padding-left: 3%;
+        font-size: 2.2vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 1vw;
+        left: 3%;
+        width: 75%;
+    }
+}
+
+
+/* 1024px */
+
+@media (width < 1025px) {
+    form{  
+        width: 80%;
+        height: auto;
+        margin-top: -25%;
+    }
+    .inputb{
+        height: 30vw;
+    }
+    textarea{
+        height: 10vw;
+    }
+    header{
+        width: 100%;
+        height: 10vw;
+        background-color: #2d3e50;
+    }
+    header img{
+        margin: 1%;
+        width: 8%;
+    }
+    form h1{
+        padding: 0.2% 0;
+        font-size: 4VW;
+        
+    }
+    label{
+        font-size: 2vw;
+    }
+    .inputa{
+        margin: 0.8% 0;
+        width: 100%;
+        line-height: 4vw;
+    }
+    .formpic{
+        height: 60vw;
+        width: 100%;
+        
+    }
+    .lets{
+        padding: 4% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 9vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 1% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3.5vw;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 15%;
+        margin-top: -6.5%;
+    }
+    .quicklinks a{
+        padding-left: 3%;
+        font-size: 2.2vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 3vw;
+        left: 5%;
+        width: 100%;
+
+    }
+}
+
+/* 912px */
+
+@media (width < 913px) {
+    form{  
+        width: 80%;
+        height: auto;
+        margin-top: -21%;
+    }
+    .inputb{
+        height: 30vw;
+    }
+    header{
+        width: 100%;
+        height: 10vw;
+        background-color: #2d3e50;
+    }
+    header img{
+        margin: 1%;
+        width: 8%;
+    }
+    form h1{
+        padding: 5% 0;
+        font-size: 6VW;
+        
+    }
+    label{
+        font-size: 2vw;
+    }
+    .inputa{
+        margin: 0.8% 0;
+        width: 100%;
+        line-height: 5vw;
+    }
+    .formpic{
+        height: 60vw;
+        width: 100%;
+        
+    }
+    .lets{
+        padding: 4% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 9vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 1% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3.5vw;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 15%;
+        margin-top: -7%;
+    }
+    .quicklinks a{
+        padding-left: 3%;
+        font-size: 2.5vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 3vw;
+        left: 5%;
+    }
+}
+
+/* 820px */
+
+@media (width < 821px) {
+    form{  
+        width: 80%;
+        height: auto;
+        margin-top: -21%;
+    }
+    .inputb{
+        height: 30vw;
+    }
+    header{
+        width: 100%;
+        height: 10vw;
+        background-color: #2d3e50;
+    }
+    header img{
+        margin: 1%;
+        width: 8%;
+    }
+    form h1{
+        padding: 5% 0;
+        font-size: 6VW;
+        
+    }
+    label{
+        font-size: 2vw;
+    }
+    .inputa{
+        margin: 0.8% 0;
+        width: 100%;
+        line-height: 6vw;
+    }
+    .formpic{
+        height: 60vw;
+        width: 100%;
+        
+    }
+    .lets{
+        padding: 4% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 9vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 1% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3.5vw;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 15%;
+        margin-top: -7%;
+    }
+    .quicklinks a{
+        padding-left: 3%;
+        font-size: 2.5vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 3vw;
+        left: 5%;
+        width: 100%;
+
+    }
+}
+
+/* 768px */
+
+@media (width < 769px) {
+    form{  
+        width: 80%;
+        height: auto;
+        margin-top: -21%;
+    }
+    .inputb{
+        height: 30vw;
+    }
+    header{
+        width: 100%;
+        height: 10vw;
+        background-color: #2d3e50;
+    }
+    header img{
+        margin: 1%;
+        width: 8%;
+    }
+    form h1{
+        padding: 1% 0;
+        font-size: 6VW;
+        
+    }
+    label{
+        font-size: 2vw;
+    }
+    .inputa{
+        margin: 0.8% 0;
+        width: 100%;
+        line-height: 5vw;
+    }
+    .formpic{
+        height: 60vw;
+        width: 100%;
+        
+    }
+    .lets{
+        padding: 4% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 9vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 1% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3.5vw;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 15%;
+        margin-top: -7%;
+    }
+    .quicklinks a{
+        padding-left: 3%;
+        font-size: 2.5vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 3vw;
+        left: 5%;
+        width: 90%;
+    }
+}
+
+/* 430px */
+
+@media (width < 431px) {
+    form{  
+        width: 70%;
+        height: auto;
+        margin-top: -7%;
+    }
+    .inputb{
+        height: 40vw;
+    }
+    header{
+        width: 100%;
+        height: 12vw;
+        background-color: #2d3e50;
+    }
+    header img{
+        margin: 2%;
+        width: 8%;
+    }
+    form h1{
+        padding: 8% 0;
+        font-size: 8VW;
+        
+    }
+    label{
+        font-size: 5vw;
+    }
+    .inputa{
+        margin: 7% 0;
+        width: 100%;
+        line-height: 9vw;
+    }
+    .formpic{
+        height: 60vw;
+        width: 100%;
+        
+    }
+    .lets{
+        padding: 13.5% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 9vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 1% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3.5vw;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 15%;
+        margin-top: -9%;
+    }
+    .quicklinks a{
+        padding-left: 2%;
+        font-size: 2.8vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 3vw;
+        left: 5%;
+        width: 120%;
+
+    }
+}
+
+/* 414px */
+
+@media (width < 415px) {
+    form{  
+        width: 70%;
+        height: auto;
+        margin-top: -7%;
+    }
+    .inputb{
+        height: 40vw;
+    }
+    header{
+        width: 100%;
+        height: 12vw;
+        background-color: #2d3e50;
+    }
+    header img{
+        margin: 2%;
+        width: 8%;
+    }
+    form h1{
+        padding: 8% 0;
+        font-size: 8VW;
+        
+    }
+    label{
+        font-size: 5vw;
+    }
+    .inputa{
+        margin: 7% 0;
+        width: 100%;
+        line-height: 9vw;
+    }
+    .formpic{
+        height: 60vw;
+        width: 100%;
+        
+    }
+    .lets{
+        padding: 13.5% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 9vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 1% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3.5vw;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 15%;
+        margin-top: -9%;
+    }
+    .quicklinks a{
+        padding-left: 2%;
+        font-size: 2.8vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 3vw;
+        left: 5%;
+        width: 120%;
+
+    }
+}
+
+
+
+/* 390px */
+
+@media (width < 391px) {
+    form{  
+        width: 80%;
+        height: auto;
+        margin-top: -7%;
+    }
+    header img{
+        margin: 1%;
+        width: 8%;
+    }
+    
+    form h1{
+        padding: 12% 0;
+        font-size: 8VW;
+        
+    }
+    .inputa{
+        margin: 4% 0;
+        width: 100%;
+        line-height: 9vw;
+    }
+    .inputb{
+        height: 50vw;
+    }
+    .formpic{
+        height: 60vw;
+        width: 100%;
+        
+    }
+    .lets{
+        padding: 13% 0 3%;
+        color: white;
+        text-align: center;
+        font-size: 7vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 1% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3.5vw;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 15%;
+        margin-top: -9%;
+    }
+    .quicklinks a{
+        padding-left: 0.5%;
+        font-size: 2.8vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 3vw;
+        left: 5%;
+        width: 120%;
+
+    }
+}
+
+/* 375px */
+
+@media (width < 376px) {
+    form{  
+        width: 70%;
+        height: auto;
+        margin-top: -7%;
+    }
+    header img{
+        margin: 1%;
+        width: 8%;
+    }
+    
+    form h1{
+        padding: 8% 0;
+        font-size: 8VW;
+        
+    }
+    .inputa{
+        margin: 4% 0;
+        width: 100%;
+        line-height: 9vw;
+    }
+    .formpic{
+        height: 50vw;
+        width: 100%;
+        
+    }
+    .lets{
+        padding: 5.5% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 7vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 1% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3.5vw;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 15%;
+        margin-top: -9%;
+    }
+    .quicklinks a{
+        padding-left: 0.5%;
+        font-size: 2.8vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 3vw;
+        left: 5%;
+        width: 120%;
+    }
+}
+
+
+/* 360px */
+
+@media (width < 361px) {
+    header{
+        width: 100%;
+        height: 10vw;
+        background-color: #2d3e50;
+        
+    }
+    form{  
+        width: 80%;
+        height: auto;
+        margin-top: -7%;
+    }
+    .inputb{
+        height: 40vw;
+    }
+    form h1{
+        padding: 6% 0;
+        font-size: 8VW;
+        
+    }
+    .inputa{
+        margin: 4% 0;
+        width: 100%;
+        line-height: 9vw;
+    }
+    .formpic{
+        height: 60vw;
+        width: 100%;
+        
+    }
+    label{
+        font-size: 5vw;
+    }
+    .lets{
+        padding: 13.5% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 9vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 1% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3.5vw;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 15%;
+        margin-top: -9%;
+    }
+    .quicklinks a{
+        padding-left: 0.5%;
+        font-size: 2.8vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 3vw;
+        left: 5%;
+        width: 135%;
+
+    }
+}
+
+/* 280px */
+
+@media (width < 281px) {
+    header{
+        width: 100%;
+        height: 10vw;
+        background-color: #2d3e50;
+        
+    }
+    form{  
+        width: 80%;
+        height: auto;
+        margin-top: -7%;
+    }
+    .inputb{
+        height: 50vw;
+    }
+    form h1{
+        padding: 6% 0;
+        font-size: 8VW;
+        
+    }
+    .inputa{
+        margin: 4% 0;
+        width: 100%;
+        line-height: 9vw;
+    }
+    .formpic{
+        height: 60vw;
+        width: 100%;
+        
+    }
+    label{
+        font-size: 5vw;
+    }
+    .lets{
+        padding: 13.5% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 9vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 1% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3.5vw;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 15%;
+        margin-top: -10.5%;
+    }
+    .quicklinks a{
+        padding-left: 0.5%;
+        font-size: 2.8vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 3vw;
+        left: 5%;
+        width: 135%;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

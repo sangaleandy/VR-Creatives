@@ -1,0 +1,2074 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 6.8vw;
+    background-color: #2d3e50;
+    
+}
+header img{
+    margin: -0.6%;
+    width: 8%;
+}
+.quicklinks{
+    padding-left: 50%;
+    margin-top: -4.5%;
+}
+.selected{
+    color: white;
+}
+.notselected{
+    color: #f59d10;
+}
+.quicklinks a{
+    padding-left: 3%;
+    font-size: 1.3vw;
+    padding-right: 3%;
+    text-decoration: none;
+    font-weight: bold;
+    transition: ease-in-out 0.4s;
+}
+.quicklinks a:hover{
+   color: white;
+}
+
+/* computer desk */
+
+.computerdesk{
+    width: 100%;
+    height: 85vh;
+    /* background-color: red; */
+    /* background-image: url(Res/Computerdeskred.jpg); */
+    background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%), url(Res/Computerdeskred.jpg);
+    background-position: 0 75%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bestbrand{
+    color: white;
+    max-width: 30%;
+    font-size: 2vw;
+    font-weight: bold;
+    padding-left: 4%;
+    padding-top: 8%;
+}
+.team{
+    color: white;
+    max-width: 30%;
+    font-size: 1.2vw;
+    padding-left: 4%;
+    padding-top: 3%;
+}
+.creatives{
+    color: #fff;
+    background-color: #f59d10;
+    border: none;
+    border-radius: 5%;
+    padding: 1%;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+/* About us */
+
+.aboutus{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+.aboutpic{
+    margin-left: 5%;
+    width: 105vw;
+    height: 55vh;
+    background: url(Res/penred.jpg);
+    background-size: cover;
+
+}
+.About{
+    font-weight: bold;
+    font-size: 3vw;
+    margin-top: 7%;
+}
+.weare{
+    padding-top: 4%;
+    max-width: 80%;
+    letter-spacing: 1px;
+    font-size: 1.4vw;
+}
+.stories{
+    padding-left: 4%;
+}
+.quality{
+    color: #fff;
+    background-color: #f59d10;
+    border: none;
+    border-radius: 5%;
+    padding: 1%;
+    margin-top: 4%;
+}
+
+/* Featured jobs */
+
+.featured{
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Res/keyboardred.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 3%;
+    color: #fff;
+    font-size: 2.8vw;
+    font-weight: bold;
+
+}
+.projects{
+    margin-top: 12.5%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.unsplash{
+    display: flex;
+    justify-content: center;
+}
+.unsplash img{
+    width: 30%;
+    padding-left: 0.07%;
+    padding-right: 0.07%;
+    padding-top: 0.1%;
+}
+
+.usplash{
+    display: flex;
+    justify-content: center;
+}
+.usplash img{
+    width: 30%;
+    padding-left: 0.07%;
+    padding-right: 0.07%;
+    /* padding-top: 0.1%; */
+}
+
+.splash{
+    display: flex;
+    justify-content: center;
+}
+.splash img{
+    width: 30%;
+    padding-left: 0.07%;
+    padding-right: 0.07%;
+    /* padding-top: 0.1%; */
+}
+
+/* Form */
+
+.formsection{
+    padding: 3vw 0;
+    margin: 0 0 2vw;
+}
+
+.inputa{
+    margin: 1.5% 0;
+    width: 100%;
+    line-height: 3vw;
+}
+textarea{
+    width: 100%;
+
+}
+.send{
+    margin: 2% 0;
+    color: #fff;
+    width: 50%;
+    display: block;
+    margin: auto;
+    background-image: linear-gradient(to right, #f59d10, #be7c11);
+    border: none;
+    border-radius: 20px;
+    padding: 0.7vw;
+
+}
+
+form{
+    padding: 3% 3%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: -5%;
+    margin-bottom: 5%;
+    width: 70%;
+    height: auto;
+    border: 0.1vw solid grey;
+    justify-content: center;
+    box-shadow: 1px 1px 1px grey;
+    background: white;
+    /* background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%); */
+}
+.inputb{
+    height: 15vw;
+}
+form h1{
+    padding: 3% 0;
+    
+}
+.formpic{
+    height: 30vw;
+    width: 100%;
+    /* background-image: url(Res/contact.jpg); */
+    background: linear-gradient(to top, rgba(0,0,0,0.45)50%, rgba(0,0,0,0.45)50%), url(Res/contactred.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lets{
+    padding: 5.5% 0 0;
+    color: white;
+    text-align: center;
+    font-size: 6vw;
+    font-weight: bold;
+}
+.get{
+    padding: 1% 0 0;
+    color: white;
+    text-align: center;
+    font-size: 1.8vw;
+    max-width: 60%;
+    display: block;
+    margin: auto;
+
+}
+ 
+
+.whatsapp{
+    position: fixed;
+    bottom: 3vw;
+    right: -40vw;
+}
+
+/* Response Form */
+/* >1368px */
+
+@media (width > 1367px) {
+    .About{
+        padding: 25% 0 0;
+    }
+   
+    form{  
+        width: 80%;
+        height: auto;
+        margin-top: -25%;
+    }
+    .inputb{
+        height: 15vw;
+    }
+    textarea{
+        height: 10vw;
+    }
+    header{
+        width: 100%;
+        height: 10vw;
+        background-color: #2d3e50;
+    }
+    header img{
+        margin: 1%;
+        width: 8%;
+    }
+    form h1{
+        padding: 0.2% 0;
+        font-size: 4VW;
+        
+    }
+    label{
+        font-size: 2vw;
+    }
+    .inputa{
+        margin: 0.8% 0;
+        width: 100%;
+        line-height: 3vw;
+    }
+    .formpic{
+        height: 60vw;
+        width: 100%;
+        
+    }
+    .lets{
+        padding: 4% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 5vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 3% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3vw;
+        max-width: 80%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 25%;
+        margin-top: -6.5%;
+    }
+    .quicklinks a{
+        padding-left: 3%;
+        font-size: 2.2vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 1vw;
+        left: 3%;
+        width: 75%;
+    }
+}
+
+
+/* 1024px */
+
+@media (width < 1025px) {
+    /* Home page */
+    .computerdesk{
+        width: 100%;
+        height: 75vw;
+        /* background-color: red; */
+        /* background-image: url(Res/Computerdeskred.jpg); */
+        background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%), url(Res/Computerdeskred.jpg);
+        background-position: 0 75%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bestbrand{
+        color: white;
+        max-width: 70%;
+        font-size: 4vw;
+        font-weight: bold;
+        padding-left: 4%;
+        padding-top: 9%;
+        padding-bottom: 6%;
+    }
+    .team{
+        color: white;
+        max-width: 60%;
+        font-size: 3vw;
+        padding-left: 4%;
+        padding-top: 1%;
+        padding-bottom: 7%;
+    }
+    .aboutus{
+        margin-top: 1%;
+        display: block;
+    }
+    .aboutpic{
+        margin-left: 4%;
+        width: 92%;
+        height: 45vw;
+        background: url(Res/penred.jpg);
+        background-size: cover;
+    
+    }
+    .About{
+        font-weight: bold;
+        font-size: 6vw;
+        margin-top: 7%;
+    }
+    .weare{
+        padding-top: 4%;
+        max-width: 100%;
+        letter-spacing: 1px;
+        font-size: 3vw;
+    }
+    .quality{
+        color: #fff;
+        background-color: #5eafd3;
+        border: none;
+        border-radius: 5%;
+        padding: 1%;
+        margin-top: 4%;
+    }
+    
+    /* Home page end */
+    form{  
+        width: 80%;
+        height: auto;
+        margin-top: -25%;
+    }
+    .inputb{
+        height: 20vw;
+    }
+    textarea{
+        height: 10vw;
+    }
+    header{
+        width: 100%;
+        height: 10vw;
+        background-color: #2d3e50;
+    }
+    header img{
+        margin: 1%;
+        width: 8%;
+    }
+    form h1{
+        padding: 0.2% 0;
+        font-size: 4VW;
+        
+    }
+    label{
+        font-size: 2vw;
+    }
+    .inputa{
+        margin: 0.8% 0;
+        width: 100%;
+        line-height: 4vw;
+    }
+    .formpic{
+        height: 60vw;
+        width: 100%;
+        
+    }
+    .lets{
+        padding: 4% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 9vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 1% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3.5vw;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 15%;
+        margin-top: -6.5%;
+    }
+    .quicklinks a{
+        padding-left: 3%;
+        font-size: 2.2vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 3vw;
+        left: 5%;
+        width: 100%;
+
+    }
+}
+
+/* 912px */
+
+@media (width < 913px) {
+    form{  
+        width: 80%;
+        height: auto;
+        margin-top: -21%;
+    }
+    .inputb{
+        height: 20vw;
+    }
+    header{
+        width: 100%;
+        height: 10vw;
+        background-color: #2d3e50;
+    }
+    header img{
+        margin: 1%;
+        width: 8%;
+    }
+    form h1{
+        padding: 5% 0;
+        font-size: 6VW;
+        
+    }
+    label{
+        font-size: 2vw;
+    }
+    .inputa{
+        margin: 0.8% 0;
+        width: 100%;
+        line-height: 6vw;
+    }
+    .formpic{
+        height: 60vw;
+        width: 100%;
+        
+    }
+    .lets{
+        padding: 4% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 9vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 1% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3.5vw;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 15%;
+        margin-top: -7%;
+    }
+    .quicklinks a{
+        padding-left: 3%;
+        font-size: 2.5vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 3vw;
+        left: 5%;
+    }
+    .inputa{
+        margin: 4% 0;
+        width: 100%;
+        line-height: 5vw;
+    }
+}
+
+/* 820px */
+
+@media (width < 821px) {
+    /* Home page */
+    .computerdesk{
+        width: 100%;
+        height: 75vw;
+        /* background-color: red; */
+        /* background-image: url(Res/Computerdeskred.jpg); */
+        background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%), url(Res/Computerdeskred.jpg);
+        background-position: 0 75%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bestbrand{
+        color: white;
+        max-width: 70%;
+        font-size: 4vw;
+        font-weight: bold;
+        padding-left: 4%;
+        padding-top: 9%;
+        padding-bottom: 6%;
+    }
+    .team{
+        color: white;
+        max-width: 60%;
+        font-size: 3vw;
+        padding-left: 4%;
+        padding-top: 1%;
+        padding-bottom: 7%;
+    }
+    .aboutus{
+        margin-top: 1%;
+        display: block;
+    }
+    .aboutpic{
+        margin-left: 4%;
+        width: 92%;
+        height: 45vw;
+        background: url(Res/penred.jpg);
+        background-size: cover;
+    
+    }
+    .About{
+        font-weight: bold;
+        font-size: 6vw;
+        margin-top: 7%;
+    }
+    .weare{
+        padding-top: 4%;
+        max-width: 100%;
+        letter-spacing: 1px;
+        font-size: 3vw;
+    }
+    .quality{
+        color: #fff;
+        background-color: #5eafd3;
+        border: none;
+        border-radius: 5%;
+        padding: 1%;
+        margin-top: 4%;
+    }
+    
+    /* Home page end */
+    form{  
+        width: 80%;
+        height: auto;
+        margin-top: -21%;
+    }
+    .inputb{
+        height: 20vw;
+    }
+    header{
+        width: 100%;
+        height: 10vw;
+        background-color: #2d3e50;
+    }
+    header img{
+        margin: 1%;
+        width: 8%;
+    }
+    form h1{
+        padding: 5% 0;
+        font-size: 6VW;
+        
+    }
+    label{
+        font-size: 2vw;
+    }
+    .inputa{
+        margin: 0.8% 0;
+        width: 100%;
+        line-height: 4vw;
+    }
+    .formpic{
+        height: 60vw;
+        width: 100%;
+        
+    }
+    .lets{
+        padding: 4% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 9vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 1% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3.5vw;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 15%;
+        margin-top: -7%;
+    }
+    .quicklinks a{
+        padding-left: 3%;
+        font-size: 2.5vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 3vw;
+        left: 5%;
+        width: 100%;
+
+    }
+    .inputa{
+        margin: 4% 0;
+        width: 100%;
+        line-height: 5vw;
+    }
+}
+
+/* 768px */
+
+@media (width < 769px) {
+    /* Home page */
+    .computerdesk{
+        width: 100%;
+        height: 75vw;
+        /* background-color: red; */
+        /* background-image: url(Res/Computerdeskred.jpg); */
+        background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%), url(Res/Computerdeskred.jpg);
+        background-position: 0 75%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bestbrand{
+        color: white;
+        max-width: 70%;
+        font-size: 4vw;
+        font-weight: bold;
+        padding-left: 4%;
+        padding-top: 9%;
+        padding-bottom: 6%;
+    }
+    .team{
+        color: white;
+        max-width: 60%;
+        font-size: 3vw;
+        padding-left: 4%;
+        padding-top: 1%;
+        padding-bottom: 7%;
+    }
+    .aboutus{
+        margin-top: 1%;
+        display: block;
+    }
+    .aboutpic{
+        margin-left: 4%;
+        width: 92%;
+        height: 45vw;
+        background: url(Res/penred.jpg);
+        background-size: cover;
+    
+    }
+    .About{
+        font-weight: bold;
+        font-size: 6vw;
+        margin-top: 7%;
+    }
+    .weare{
+        padding-top: 4%;
+        max-width: 100%;
+        letter-spacing: 1px;
+        font-size: 3vw;
+    }
+    .quality{
+        color: #fff;
+        background-color: #5eafd3;
+        border: none;
+        border-radius: 5%;
+        padding: 1%;
+        margin-top: 4%;
+    }
+    
+    /* Home page end */
+    form{  
+        width: 80%;
+        height: auto;
+        margin-top: -21%;
+    }
+    .inputb{
+        height: 20vw;
+    }
+    header{
+        width: 100%;
+        height: 10vw;
+        background-color: #2d3e50;
+    }
+    header img{
+        margin: 1%;
+        width: 8%;
+    }
+    form h1{
+        padding: 1% 0;
+        font-size: 6VW;
+        
+    }
+    label{
+        font-size: 2vw;
+    }
+    .inputa{
+        margin: 0.8% 0;
+        width: 100%;
+        line-height: 4vw;
+    }
+    .formpic{
+        height: 60vw;
+        width: 100%;
+        
+    }
+    .lets{
+        padding: 4% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 9vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 1% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3.5vw;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 15%;
+        margin-top: -8%;
+    }
+    .quicklinks a{
+        padding-left: 3%;
+        font-size: 2.5vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 3vw;
+        left: 5%;
+        width: 90%;
+    }
+}
+
+/* 540px */
+
+@media (width < 541px) {
+    .inputa{
+        margin: 4% 0;
+        width: 100%;
+        line-height: 4vw;
+    }
+}
+
+/* 430px */
+
+@media (width < 431px) {
+    /* Home page */
+    .computerdesk{
+        width: 100%;
+        height: 75vw;
+        /* background-color: red; */
+        /* background-image: url(Res/Computerdeskred.jpg); */
+        background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%), url(Res/Computerdeskred.jpg);
+        background-position: 0 75%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bestbrand{
+        color: white;
+        max-width: 70%;
+        font-size: 4vw;
+        font-weight: bold;
+        padding-left: 4%;
+        padding-top: 9%;
+        padding-bottom: 6%;
+    }
+    .team{
+        color: white;
+        max-width: 60%;
+        font-size: 3vw;
+        padding-left: 4%;
+        padding-top: 1%;
+        padding-bottom: 7%;
+    }
+    .aboutus{
+        margin-top: 1%;
+        display: block;
+    }
+    .aboutpic{
+        margin-left: 4%;
+        width: 92%;
+        height: 45vw;
+        background: url(Res/penred.jpg);
+        background-size: cover;
+    
+    }
+    .About{
+        font-weight: bold;
+        font-size: 6vw;
+        margin-top: 7%;
+    }
+    .weare{
+        padding-top: 4%;
+        max-width: 100%;
+        letter-spacing: 1px;
+        font-size: 3vw;
+    }
+    .quality{
+        color: #fff;
+        background-color: #5eafd3;
+        border: none;
+        border-radius: 5%;
+        padding: 1%;
+        margin-top: 4%;
+    }
+    
+    /* Home page end */
+    form{  
+        width: 70%;
+        height: auto;
+        margin-top: -7%;
+    }
+    .inputb{
+        height: 40vw;
+    }
+    header{
+        width: 100%;
+        height: 12vw;
+        background-color: #2d3e50;
+    }
+    header img{
+        margin: 2%;
+        width: 8%;
+    }
+    form h1{
+        padding: 8% 0;
+        font-size: 8VW;
+        
+    }
+    label{
+        font-size: 5vw;
+    }
+    .inputa{
+        margin: 7% 0;
+        width: 100%;
+        line-height: 9vw;
+    }
+    .formpic{
+        height: 60vw;
+        width: 100%;
+        
+    }
+    .lets{
+        padding: 13.5% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 9vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 1% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3.5vw;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 15%;
+        margin-top: -9%;
+    }
+    .quicklinks a{
+        padding-left: 2%;
+        font-size: 2.8vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 3vw;
+        left: 5%;
+        width: 120%;
+
+    }
+}
+
+/* 414px */
+
+@media (width < 415px) {
+    /* Home page */
+    .computerdesk{
+        width: 100%;
+        height: 75vw;
+        /* background-color: red; */
+        /* background-image: url(Res/Computerdeskred.jpg); */
+        background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%), url(Res/Computerdeskred.jpg);
+        background-position: 0 75%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bestbrand{
+        color: white;
+        max-width: 70%;
+        font-size: 4vw;
+        font-weight: bold;
+        padding-left: 4%;
+        padding-top: 9%;
+        padding-bottom: 6%;
+    }
+    .team{
+        color: white;
+        max-width: 60%;
+        font-size: 3vw;
+        padding-left: 4%;
+        padding-top: 1%;
+        padding-bottom: 7%;
+    }
+    .aboutus{
+        margin-top: 1%;
+        display: block;
+    }
+    .aboutpic{
+        margin-left: 4%;
+        width: 92%;
+        height: 45vw;
+        background: url(Res/penred.jpg);
+        background-size: cover;
+    
+    }
+    .About{
+        font-weight: bold;
+        font-size: 6vw;
+        margin-top: 7%;
+    }
+    .weare{
+        padding-top: 4%;
+        max-width: 100%;
+        letter-spacing: 1px;
+        font-size: 3vw;
+    }
+    .quality{
+        color: #fff;
+        background-color: #5eafd3;
+        border: none;
+        border-radius: 5%;
+        padding: 1%;
+        margin-top: 4%;
+    }
+    
+    /* Home page end */
+    form{  
+        width: 70%;
+        height: auto;
+        margin-top: -7%;
+    }
+    .inputb{
+        height: 40vw;
+    }
+    header{
+        width: 100%;
+        height: 11vw;
+        background-color: #2d3e50;
+        
+    }
+    header img{
+        margin: 1%;
+        width: 8%;
+    }
+    
+    form h1{
+        padding: 15% 0;
+        font-size: 8VW;
+        
+    }
+    .inputa{
+        margin: 8% 0;
+        width: 100%;
+        line-height: 9vw;
+    }
+    .formpic{
+        height: 70vw;
+        width: 100%;
+        
+    }
+    .lets{
+        padding: 15% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 8vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 6% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3.8vw;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 15%;
+        margin-top: -9%;
+    }
+    .quicklinks a{
+        padding-left: 2%;
+        font-size: 2.8vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 3vw;
+        left: 5%;
+        width: 120%;
+
+    }
+}
+
+/* 412px */
+
+@media (width < 415px) {
+    form{  
+        width: 70%;
+        height: auto;
+        margin-top: -7%;
+    }
+    .inputb{
+        height: 30vw;
+    }
+    header{
+        width: 100%;
+        height: 11vw;
+        background-color: #2d3e50;
+        
+    }
+    header img{
+        margin: 1%;
+        width: 8%;
+    }
+    
+    form h1{
+        padding: 15% 0;
+        font-size: 8VW;
+        
+    }
+    .inputa{
+        margin: 8% 0;
+        width: 100%;
+        line-height: 6vw;
+    }
+    .formpic{
+        height: 70vw;
+        width: 100%;
+        
+    }
+    .lets{
+        padding: 15% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 8vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 6% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3.8vw;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 15%;
+        margin-top: -8%;
+    }
+    .quicklinks a{
+        padding-left: 2%;
+        font-size: 2.8vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 3vw;
+        left: 5%;
+        width: 135%;
+
+    }
+    .inputa{
+        margin: 4% 0;
+        width: 100%;
+        line-height: 6vw;
+    }
+}
+
+/* 390px */
+
+@media (width < 391px) {
+    /* Home page */
+    .computerdesk{
+        width: 100%;
+        height: 75vw;
+        /* background-color: red; */
+        /* background-image: url(Res/Computerdeskred.jpg); */
+        background-position: 0 75%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bestbrand{
+        color: white;
+        max-width: 70%;
+        font-size: 4vw;
+        font-weight: bold;
+        padding-left: 4%;
+        padding-top: 9%;
+        padding-bottom: 6%;
+    }
+    .team{
+        color: white;
+        max-width: 60%;
+        font-size: 3vw;
+        padding-left: 4%;
+        padding-top: 1%;
+        padding-bottom: 7%;
+    }
+    .aboutus{
+        margin-top: 1%;
+        display: block;
+    }
+    .aboutpic{
+        margin-left: 4%;
+        width: 92%;
+        height: 45vw;
+        background: url(Res/penred.jpg);
+        background-size: cover;
+    
+    }
+    .About{
+        font-weight: bold;
+        font-size: 6vw;
+        margin-top: 7%;
+    }
+    .weare{
+        padding-top: 4%;
+        max-width: 100%;
+        letter-spacing: 1px;
+        font-size: 3vw;
+    }
+    .quality{
+        color: #fff;
+        background-color: #5eafd3;
+        border: none;
+        border-radius: 5%;
+        padding: 1%;
+        margin-top: 4%;
+    }
+    
+    /* Home page end */
+    form{  
+        width: 80%;
+        height: auto;
+        margin-top: -7%;
+    }
+    .inputb{
+        height: 40vw;
+    }
+    header img{
+        margin: 1%;
+        width: 8%;
+    }
+    
+    form h1{
+        padding: 12% 0;
+        font-size: 8VW;
+        
+    }
+    .inputa{
+        margin: 4% 0;
+        width: 100%;
+        line-height: 9vw;
+    }
+    .formpic{
+        height: 60vw;
+        width: 100%;
+        
+    }
+    .lets{
+        padding: 13% 0 3%;
+        color: white;
+        text-align: center;
+        font-size: 7vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 1% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3.5vw;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 15%;
+        margin-top: -9%;
+    }
+    .quicklinks a{
+        padding-left: 0.5%;
+        font-size: 2.8vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 3vw;
+        left: 5%;
+        width: 120%;
+
+    }
+}
+
+/* 375px */
+
+@media (width < 376px) {
+    /* Home page */
+    .computerdesk{
+        width: 100%;
+        height: 75vw;
+        /* background-color: red; */
+        /* background-image: url(Res/Computerdeskred.jpg); */
+        background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%), url(Res/Computerdeskred.jpg);
+        background-position: 0 75%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bestbrand{
+        color: white;
+        max-width: 70%;
+        font-size: 4vw;
+        font-weight: bold;
+        padding-left: 4%;
+        padding-top: 9%;
+        padding-bottom: 6%;
+    }
+    .team{
+        color: white;
+        max-width: 60%;
+        font-size: 3vw;
+        padding-left: 4%;
+        padding-top: 1%;
+        padding-bottom: 7%;
+    }
+    .aboutus{
+        margin-top: 1%;
+        display: block;
+    }
+    .aboutpic{
+        margin-left: 4%;
+        width: 92%;
+        height: 45vw;
+        background: url(Res/penred.jpg);
+        background-size: cover;
+    
+    }
+    .About{
+        font-weight: bold;
+        font-size: 6vw;
+        margin-top: 7%;
+    }
+    .weare{
+        padding-top: 4%;
+        max-width: 100%;
+        letter-spacing: 1px;
+        font-size: 3vw;
+    }
+    .quality{
+        color: #fff;
+        background-color: #5eafd3;
+        border: none;
+        border-radius: 5%;
+        padding: 1%;
+        margin-top: 4%;
+    }
+    
+    /* Home page end */
+
+    form{  
+        width: 70%;
+        height: auto;
+        margin-top: -7%;
+    }
+    .inputb{
+        height: 50vw;
+    }
+    header img{
+        margin: 1%;
+        width: 8%;
+    }
+    
+    form h1{
+        padding: 8% 0;
+        font-size: 8VW;
+        
+    }
+    .inputa{
+        margin: 4% 0;
+        width: 100%;
+        line-height: 6vw;
+    }
+    .formpic{
+        height: 50vw;
+        width: 100%;
+        
+    }
+    .lets{
+        padding: 5.5% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 7vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 1% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3.5vw;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 15%;
+        margin-top: -9%;
+    }
+    .quicklinks a{
+        padding-left: 0.5%;
+        font-size: 2.8vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 3vw;
+        left: 5%;
+        width: 120%;
+    }
+}
+
+
+/* 360px */
+
+@media (width < 361px) {
+    header{
+        width: 100%;
+        height: 10vw;
+        background-color: #2d3e50;
+        
+    }
+    form{  
+        width: 80%;
+        height: auto;
+        margin-top: -7%;
+    }
+    .inputb{
+        height: 40vw;
+    }
+    form h1{
+        padding: 6% 0;
+        font-size: 8VW;
+        
+    }
+    .inputa{
+        margin: 4% 0;
+        width: 100%;
+        line-height: 9vw;
+    }
+    .formpic{
+        height: 60vw;
+        width: 100%;
+        
+    }
+    label{
+        font-size: 5vw;
+    }
+    .lets{
+        padding: 13.5% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 9vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 1% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3.5vw;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 15%;
+        margin-top: -9%;
+    }
+    .quicklinks a{
+        padding-left: 0.5%;
+        font-size: 2.8vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 3vw;
+        left: 5%;
+        width: 135%;
+
+    }
+}
+
+/* 280px */
+
+@media (width < 281px) {
+    header{
+        width: 100%;
+        height: 10vw;
+        background-color: #2d3e50;
+        
+    }
+    form{  
+        width: 80%;
+        height: auto;
+        margin-top: -7%;
+    }
+    .inputb{
+        height: 30vw;
+    }
+    form h1{
+        padding: 6% 0;
+        font-size: 8VW;
+        
+    }
+    .inputa{
+        margin: 4% 0;
+        width: 100%;
+        line-height: 9vw;
+    }
+    .formpic{
+        height: 60vw;
+        width: 100%;
+        
+    }
+    label{
+        font-size: 5vw;
+    }
+    .lets{
+        padding: 13.5% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 9vw;
+        font-weight: bold;
+    }
+    .get{
+        padding: 1% 0 0;
+        color: white;
+        text-align: center;
+        font-size: 3.5vw;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .quicklinks{
+        padding-left: 15%;
+        margin-top: -10.5%;
+    }
+    .quicklinks a{
+        padding-left: 0.5%;
+        font-size: 2.8vw;
+        padding-right: 3%;
+        text-decoration: none;
+        font-weight: bold;
+        transition: ease-in-out 0.4s;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 3vw;
+        left: 5%;
+        width: 135%;
+
+    }
+    .inputa{
+        margin: 4% 0;
+        width: 100%;
+        line-height: 6vw;
+    }
+}
+
+/* Response Portfolio */
+
+/* 1368px >> */
+
+@media screen and (min-width: 1367px) {
+    
+    .unsplash img, .usplash img, .splash img{
+       width: 30%;
+       margin: 0.5% 0;
+    }
+   .featured{
+       width: 100%;
+       height: 40vw;
+       margin-bottom: 1%;
+       background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Res/keyboardred.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       /* margin-top: 3%; */
+       color: #fff;
+       font-size: 2.8vw;
+       font-weight: bold;
+   }
+   header{
+       width: 100%;
+       height: 9vw;
+       background-color: #2d3e50;
+   }
+   header img{
+       margin: 1%;
+       width: 8%;
+   }
+ 
+   .projects
+   {
+       margin-left: auto;
+       margin-top: 18%;
+       font-size: 4vw;
+   }
+   
+   .whatsapp{
+    position: fixed;
+    bottom: 4vw;
+    right: -65vw;
+    width: 75%;
+}
+   .footer{
+       height: 5vw;
+   }
+   .footer p{
+       margin-top: 0.7%;
+       font-size: 1.5vw;
+     }
+}
+
+/* 1024px */
+
+@media screen and (max-width: 1025px) {
+    
+    .unsplash img, .usplash img, .splash img{
+       width: 30%;
+       margin: 0.5% 0;
+    }
+   .featured{
+       width: 100%;
+       height: 60vw;
+       margin-bottom: 1%;
+       background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Res/keyboardred.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       /* margin-top: 3%; */
+       color: #fff;
+       font-size: 2.8vw;
+       font-weight: bold;
+   }
+   header{
+       width: 100%;
+       height: 9vw;
+       background-color: #2d3e50;
+   }
+   header img{
+       margin: 1%;
+       width: 8%;
+   }
+  
+   .projects
+   {
+       margin-left: auto;
+       margin-top: 25%;
+       font-size: 4vw;
+   }
+   
+   .whatsapp{
+    position: fixed;
+    bottom: 3vw;
+    right: -85vw;
+    width: 100%;
+}
+   .footer{
+       height: 5vw;
+   }
+   .footer p{
+       margin-top: 0.7%;
+       font-size: 2.2vw;
+     }
+}
+
+/* 820px */
+
+@media screen and (max-width: 821px) {
+    
+    .unsplash img, .usplash img, .splash img{
+       width: 30%;
+       margin: 0.5% 0;
+    }
+   .featured{
+       width: 100%;
+       height: 60vw;
+       margin-bottom: 1%;
+       background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Res/keyboardred.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       /* margin-top: 3%; */
+       color: #fff;
+       font-size: 2.8vw;
+       font-weight: bold;
+   }
+   header{
+       width: 100%;
+       height: 9vw;
+       background-color: #2d3e50;
+   }
+   header img{
+       margin: 1%;
+       width: 8%;
+   }
+
+   .projects
+   {
+       margin-left: auto;
+       margin-top: 25%;
+       font-size: 4vw;
+   }
+   
+   .whatsapp{
+    position: fixed;
+    bottom: 4vw;
+    right: -85vw;
+}
+   .footer{
+       height: 6vw;
+   }
+   .footer p{
+       margin-top: 0.7%;
+       font-size: 2.2vw;
+     }
+}
+
+/* 768px */
+
+@media screen and (max-width: 769px) {
+    
+    .unsplash img, .usplash img, .splash img{
+       width: 30%;
+       margin: 0.5% 0;
+    }
+   .featured{
+       width: 100%;
+       height: 60vw;
+       margin-bottom: 1%;
+       background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Res/keyboardred.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       /* margin-top: 3%; */
+       color: #fff;
+       font-size: 2.8vw;
+       font-weight: bold;
+   }
+   header{
+       width: 100%;
+       height: 9vw;
+       background-color: #2d3e50;
+   }
+   header img{
+       margin: 1%;
+       width: 8%;
+   }
+  
+   .projects
+   {
+       margin-left: auto;
+       margin-top: 25%;
+       font-size: 4vw;
+   }
+   
+   .whatsapp{
+    position: fixed;
+    bottom: 4vw;
+    right: -67vw;
+}
+   .footer{
+       height: 6vw;
+   }
+   .footer p{
+       margin-top: 0.7%;
+       font-size: 2.2vw;
+     }
+}
+
+/* 540px */
+
+@media screen and (max-width: 541px) 
+{
+    .unsplash img, .usplash img, .splash img{
+        width: 30%;
+        margin: 0.5% 0;
+     }
+    .whatsapp{
+        position: fixed;
+        bottom: 4vw;
+        right: -87vw;
+    }
+}
+/* 430px */
+
+@media screen and (max-width: 431px) {
+    
+    .unsplash img, .usplash img, .splash img{
+       width: 30%;
+       margin: 0.5% 0;
+    }
+   .featured{
+       width: 100%;
+       height: 45vw;
+       background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Res/keyboardred.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       /* margin-top: 3%; */
+       color: #fff;
+       font-size: 2.8vw;
+       font-weight: bold;
+   }
+   header{
+       width: 100%;
+       height: 9vw;
+       background-color: #2d3e50;
+   }
+   header img{
+       margin: 1%;
+       width: 8%;
+   }
+  
+   .projects
+   {
+       margin-left: auto;
+       margin-top: 18%;
+       font-size: 4vw;
+   }
+   .whatsapp{
+    position: fixed;
+    bottom: 3vw;
+    right: -35vw;
+    }
+   .footer{
+       height: 6vw;
+   }
+   .footer p{
+       margin-top: 0.7%;
+       font-size: 2.2vw;
+     }
+}
+
+
+/* 414px */
+
+@media screen and (max-width: 415px) {
+    
+    .unsplash img, .usplash img, .splash img{
+       width: 30%;
+       margin: 0.5% 0;
+    }
+   .featured{
+       width: 100%;
+       height: 45vw;
+       background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Res/keyboardred.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       /* margin-top: 3%; */
+       color: #fff;
+       font-size: 2.8vw;
+       font-weight: bold;
+   }
+   header{
+       width: 100%;
+       height: 9vw;
+       background-color: #2d3e50;
+   }
+   header img{
+       margin: 1%;
+       width: 8%;
+   }
+
+   .projects
+   {
+       margin-left: auto;
+       margin-top: 18%;
+       font-size: 4vw;
+   }
+   .whatsapp{
+    position: fixed;
+    bottom: 3vw;
+    right: -85vw;
+}
+   .footer{
+       height: 6vw;
+   }
+   .footer p{
+       margin-top: 0.8%;
+       font-size: 2.2vw;
+     }
+}
+
+/* 390px */
+
+@media screen and (max-width: 391px) {
+    
+    .unsplash img, .usplash img, .splash img{
+       width: 30%;
+       margin: 0.5% 0;
+    }
+   .featured{
+       width: 100%;
+       height: 45vw;
+       background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Res/keyboardred.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       /* margin-top: 3%; */
+       color: #fff;
+       font-size: 2.8vw;
+       font-weight: bold;
+   }
+   header{
+       width: 100%;
+       height: 9vw;
+       background-color: #2d3e50;
+   }
+   header img{
+       margin: 1%;
+       width: 8%;
+   }
+  
+   .projects
+   {
+       margin-left: auto;
+       margin-top: 18%;
+       font-size: 4vw;
+   }
+   .footer{
+       height: 6vw;
+   }
+   .footer p{
+       margin-top: 0.8%;
+       font-size: 2.2vw;
+     }
+}
+
+/* 375px */
+
+@media screen and (max-width: 376px) {
+    
+     .unsplash img, .usplash img, .splash img{
+        width: 30%;
+        margin: 0.5% 0;
+     }
+    .featured{
+        width: 100%;
+        height: 45vw;
+        background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Res/keyboardred.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        /* margin-top: 3%; */
+        color: #fff;
+        font-size: 2.8vw;
+        font-weight: bold;
+    }
+    header{
+        width: 100%;
+        height: 9vw;
+        background-color: #2d3e50;
+    }
+    header img{
+        margin: 1%;
+        width: 8%;
+    }
+  
+    .projects
+    {
+        margin-left: auto;
+        margin-top: 18%;
+        font-size: 4vw;
+    }
+    .footer{
+        height: 6vw;
+    }
+    .footer p{
+        margin-top: 0.8%;
+        font-size: 2.2vw;
+      }
+}
+
+/* 280px */
+
+@media screen and (max-width: 281px) {
+    
+    .unsplash img, .usplash img, .splash img{
+       width: 30%;
+       margin: 0.5% 0;
+    }
+   .featured{
+       width: 100%;
+       height: 45vw;
+       background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Res/keyboardred.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       /* margin-top: 3%; */
+       color: #fff;
+       font-size: 2.8vw;
+       font-weight: bold;
+   }
+   header{
+       width: 100%;
+       height: 9vw;
+       background-color: #2d3e50;
+   }
+   header img{
+       margin: 1%;
+       width: 8%;
+   }
+ 
+   .projects
+   {
+       margin-left: auto;
+       margin-top: 18%;
+       font-size: 4vw;
+   }
+   .footer{
+       height: 6vw;
+   }
+   .footer p{
+       margin-top: 0.8%;
+       font-size: 2.2vw;
+     }
+     .whatsapp{
+        position: fixed;
+        bottom: 4vw;
+        right: -87vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
